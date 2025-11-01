@@ -1,21 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
-<title>Page Title</title>
+<title>Home</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="">
 <style>
+
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=DM+Serif+Display:ital@0;1&display=swap');
+
+
+body {background-color:mintcream;
+	 color: black;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	} 
+
+body {
+	width: 960px;
+	margin: 0 auto;
+}
+
+div {
+	width: 25%;
+	float: left;
+	color: #000000;
+	text-align: center;
+	
+}
+
+nav {
+	width: 100%;
+	margin: 0 auto;
+	border: 5px solid;
+	border-color: hotpink;
+}
+
+nav ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 0px;
+	list-style-type: none;
+	
+}
+
+nav li { 
+	display: inline;
+	list-style-type: none;
+}
+
+nav a {
+	text-decoration: none;
+	padding: 10px;
+	color: black;
+}
+
+nav a:hover {
+	color: hotpink;
+	
+}
+
+.container { 
+    width: auto; 
+    margin: 0;   
+    color: black;
+    font-size: 18px;
+	
+}
+
+b { 
+ color: hotpink;}
+
+
+h1{text-align: center ;
+	font-size: 60px;
+	font-style:oblique;
+	text-transform: uppercase;
+	text-decoration: underline
+	} 
+
+img {float: left;        
+    margin-right: 30px; 
+    margin-bottom: 20px;
+	border-radius: 20px;
+}
+
+h3{text-align: center;
+	border: #000000;
+	margin: 0 auto;
+	color: black;
+font-size: 20px;
+}
+
+.contacts {
+	display: flex;
+	flex-direction:row;
+	align-content: center;
+	justify-content: space-around;
+	padding: 0px;
+	list-style-type: none;
+	width: 100%;
+	
+}
+
+h4{
+	width: 90%;
+	margin: 0 auto;
+	color: hotpink;
+	text-decoration: underline;
+	
+}
+
+h4 a{
+	text-decoration: none;
+	padding: 10px;
+	color: black;
+}
+
+h4 a:hover {
+	color: hotpink;
+	
+}
+
 </style>
-<script src=""></script>
 
 
-	<!--- Code above this line will not be displayed on the browser --> 
+</head>
+	
+<body> 
 
-	<body>
+<nav>
+<ul>
+	<li><a href="/Users/camilleclark/LIS351Website-CamilleClark/index.html"> HOME</a></li>
 
-		<p> Hello world! 
-            My name is Camille Clark! </p>
+	<li><a href="/Users/camilleclark/LIS351Website-CamilleClark/About Me/AboutMe.html">ABOUT ME</a></li>
 
-	</body>
+	<li><a href="/Users/camilleclark/LIS351Website-CamilleClark/Food/Food.html">FOOD</a></li>
 
+	<li><a href="/Users/camilleclark/LIS351Website-CamilleClark/Music/Music.html">MUSIC</a></li>
+
+	<li><a href="/Users/camilleclark/LIS351Website-CamilleClark/Updates/Updates.html">UPDATES</a></li>
+</ul>
+</nav>
+	
+	<h1>Camille Clark</h1>
+	<img src="images/CamilleClarkMTheadshot.JPG" alt="headshot" title="image" height="400">
+	
+	<div class="container">
+	<p class= "p1"> Hello! Thanks for stopping by! My name is <b>Camille Clark</b> and Im currently a senior at the <b>University of Wisconsin-Madison</b>. I’m studying <b>Consumer Behavior &amp; Marketplace Studies, Communications</b>, with Certificates in <b>Entrepreneurship and Digital Studies</b>. My experience lies within the marketing industry, as I have been a Channel Marketing Intern for Milwaukee Tool this past summer, and am currently in my second year with Wisconsin Athletics as a Game Day &amp; Fan Experience Marketing Intern.
+	I have always liked marketing in some capacity as well as being creative. This website is to showcase any projects or experience that I feel like sharing. Please reach out if you have any questions or want to learn more!</p>
+		
+    <h4>
+        <a href="images/Camille Clark Resume 2025.pdf" target="_blank">Click here to download and view My Resume.</a>
+    </h4>
+
+		<div style="clear: both;"></div> </div>
+	
+
+	<h3> FOLLOW ME ON SOCIAL MEDIA OR CONTACT ME</h3>
+	<div class= "contacts">
+		
+	
+	<li><a href="https://www.linkedin.com/in/camille-clark-96457826b" target="_blank" class="linkedin-link">
+    <img src="images/linkedin.jpg" alt="linkedin Logo" class="contact-logo" height="60">
+        </a></li>
+	
+		
+	<li><a href="mailto:camille.clark10@gmail.com" class="outlook link">
+		<img src="images/gmail.jpg" alt="Outlook Logo" class="contacts" height= "60"></a></li>
+		
+	<li><a href="https://www.instagram.com/camille.clark10/?igsh=amIwZmVyYmlnOXhz&utm_source=qr#" target="_blank" class="instagram-link">
+		<img src="images/instagram.jpg" alt="Instagram Logo" class="contacts" height="60"></a></li>
+		
+		</div>
+	
+	
+	
+</body>
 </html>
